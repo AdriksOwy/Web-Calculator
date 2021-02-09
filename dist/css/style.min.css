@@ -1,0 +1,1 @@
+body{display:flex;justify-content:center;align-items:center;background-color:#cbf0ff}#main{position:absolute;top:5%;width:40%;height:70vh;border:1.5vh double #000;background-color:#fff}#titlecalc{position:absolute;display:flex;justify-content:center;align-items:center;left:15%;width:70%;height:10vh}p{font:bold 3vw sans-serif}@media(max-height:350px){p{font:bold 2vw sans-serif}}
