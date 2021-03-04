@@ -95,18 +95,20 @@ textarea {
   border: 0.5vh solid black;
 }
 
-button:hover {
-  cursor: pointer;
-  background-color: rgb(171, 231, 255);
-  box-shadow: 0 0.1vh 3vh 0 black, 0 0.1vh 0.5vh 0 black;
-}
-
-button:active {
-  cursor: pointer;
-  transition-duration: 0s;
-  border: 1vh solid black;
-  background-color: rgb(248, 241, 144);
-  box-shadow: 0 0.1vh 3vh 0 black, 0 0.1vh 0.5vh 0 black;
+button {
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(171, 231, 255);
+    box-shadow: 0 0.1vh 3vh 0 black, 0 0.1vh 0.5vh 0 black;
+  }
+  
+  &:active {
+    cursor: pointer;
+    transition-duration: 0s;
+    border: 1vh solid black;
+    background-color: rgb(248, 241, 144);
+    box-shadow: 0 0.1vh 3vh 0 black, 0 0.1vh 0.5vh 0 black;
+  }
 }
 
 #mainbuttonscalculations {
