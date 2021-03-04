@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+$first-color: black;
+$second-color: white;
+$third-color: rgb(203, 240, 255);
+$fourth-color: rgb(248, 241, 144);
+
 body {
   display: flex;
 	justify-content: center;
