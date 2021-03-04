@@ -147,15 +147,7 @@ button {
 }
 
 @media(max-width: 800px) and (max-height: 600px) {
-  textarea {
-    font: bold 3vw sans-serif !important;
-  }
-
-  .buttonsnumber {
-    font: bold 3vw sans-serif !important;
-  }
-
-  .buttonscalculations {
+  textarea, .buttonsnumber, .buttonscalculations {
     font: bold 3vw sans-serif !important;
   }
 }
